@@ -3,5 +3,5 @@
 
 ```
 命令如下：
-wget curl https://raw.githubusercontent.com/961644045/swapadd/master/swapadd.sh | bash
+curl https://raw.githubusercontent.com/961644045/swapadd/master/swapadd.sh | bash
 ```
