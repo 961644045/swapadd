@@ -3,5 +3,5 @@
 
 ```
 命令如下：
-wget https://raw.githubusercontent.com/961644045/swapadd/master/swapadd.sh && bash swapadd.sh
+wget https://github.com/961644045/swapadd/blob/master/swapadd.sh && bash swapadd.sh
 ```
