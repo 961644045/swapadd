@@ -1,5 +1,6 @@
 #!/usr/bin/bash
-echo '例：请输入你需要设置的swap大小(用户不用输入单位默认为：GB)：4'
+cd ./
+echo '例：请输入你需要设置的swap大小：4'
 read -p "请输入你需要设置的swap大小：" neicun
 echo
 echo "你要增加的内存为：$neicun"'G'
