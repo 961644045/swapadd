@@ -8,7 +8,7 @@ shi=10
 daxiao=`expr $neicun \* $shi`
 dd if=/dev/zero of=/$neicun'G' bs=100M count=$daxiao
 chmod 755 /etc/rc.d/rc.local
-echo "swap -a /$neicun'G'" >> /etc/rc.d/rc.local
+echo "swapon -a /$neicun"'G' >> /etc/rc.d/rc.local
 mkswap /$neicun'G'
 swapon -a /$neicun'G'
 rm -rf swapadd.sh
